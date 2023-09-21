@@ -1,6 +1,8 @@
-pub mod control_flow;
+pub mod data_structures;
 pub mod strings;
-
-pub use control_flow;
-pub use data_structures;
-pub use strings;
+pub mod slice;
+pub mod borrow_checker;
+pub mod dangle;
+pub mod functions;
+pub mod control_flow;
+pub mod iterators;

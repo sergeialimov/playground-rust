@@ -1,2 +1,3 @@
+pub mod test;
 pub mod another_loop;
-// pub mod loop;
+pub mod loops;

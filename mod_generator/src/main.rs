@@ -31,6 +31,7 @@ fn generate_mod_files(directory: &str) {
 }
 
 fn main() {
-    let dir = "./src";  // Start from the src directory
+    let dir = "/Users/dev-sa/dev/projects/rust-playground/basics/src";  // Start from the src directory
     generate_mod_files(dir);
+    println!("Don't forget to add new dir to the main 8->()");
 }
